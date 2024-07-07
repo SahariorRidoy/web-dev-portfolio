@@ -1,7 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* shared style */
 
@@ -13,20 +15,17 @@
 }
 
 /* nav section start */
-header{
-    background: rgb(255, 248, 243);
-    background-image: url(../images/developer.png),url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top 38px left 23px, right bottom;
-
-    
+header {
+  background: rgb(255, 248, 243);
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top 38px left 23px, right bottom;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   margin: 0px 230px 0 226px;
   align-items: center;
-  
 }
 .head_span {
   color: rgb(253, 110, 10);
@@ -40,12 +39,11 @@ header{
   text-align: left;
   margin-top: 50px;
 }
-nav .nav_items{ 
-    display: flex;
+nav .nav_items {
+  display: flex;
   list-style: none;
   align-items: center;
   margin-top: 50px;
-  
 }
 
 header ul li a {
@@ -75,13 +73,19 @@ header ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 1600px;
   margin-left: 230px;
   margin-right: 38px;
   margin-top: 47px;
 }
 .banner .banner_contents {
   max-width: 585px;
-  margin-right: 250px;
+  text-align: left;
+}
+.banner_buttons{
+display: flex;
+position: relative;
+    
 }
 .banner .banner_contents .banner_head {
   color: rgb(71, 71, 71);
@@ -109,11 +113,6 @@ header ul li a {
   line-height: 30px;
   margin-bottom: 30px;
 }
-.banner_image{
-    
-}
-
-
 
 .download_btn {
   padding: 18px 17px 18px 51px;
@@ -123,6 +122,9 @@ header ul li a {
   font-weight: 700;
   line-height: 27px;
   margin-right: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact_btn {
@@ -135,22 +137,27 @@ header ul li a {
   line-height: 27px;
   text-align: center;
   background: white;
-  border: 1px solid #FD6E0A;;
+  border: 1px solid #fd6e0a;
+  position: absolute;
+  top: 0;
+  left: 230px;
 }
 
 /* about section start */
-.about {
-  margin: 30px 230px;
-  border-radius: 10px;
+
+.main_top {
   background: rgb(255, 248, 243);
-  /* align-items: center; */
-  padding: 131px 151px;
+  width: 1140px;
+  margin: 130px auto;
+  border-radius: 10px;
+  padding: 131px 156.5px;
 }
-.about_container {
+.about {
   box-sizing: border-box;
   border: 1px solid rgb(0, 0, 0);
   background: rgb(255, 255, 255);
 }
+
 .about_title {
   color: rgb(24, 24, 24);
   font-family: Open Sans;
@@ -169,42 +176,186 @@ header ul li a {
   letter-spacing: 0%;
   text-align: center;
 }
-
-.about_items {
-  display: flex;
-  /* margin-right: 20px;
-  margin-left: 20px; */
-}
-.about_items .items {
-  margin-left: 22.5px;
-}
-.about_items .items h3 {
-  font-family: Open Sans;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 10px;
-  letter-spacing: 0%;
-  text-align: center;
-  color: rgb(71, 71, 71);
-}
-.about_items .items h6 {
+.item_top {
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 400;
-  line-height: 10px;
+  line-height: 30px;
   letter-spacing: 0%;
   text-align: center;
+  color: #757575;
+}
+.item_bottom {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #474747;
+}
+.about_items {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+/* about section end */
+.skills {
+  display: flex;
+  margin-top: 50px;
+  gap: 24px;
+}
+
+.skill_section {
+  width: 1140px;
+  margin: 130px auto;
+}
+
+.skill_section .icon_box {
+  border: 1px solid #474747;
+  padding: 30px;
+}
+.icon_box_head {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.icon_box_desctiption {
   color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.mary_hardy {
-  width: 118px;
+
+/* Resumes Section Start */
+.resume {
+  width: 1140px;
+  margin: 0 auto;
 }
-.date {
-  width: 185px;
+.resume_top {
+  margin-bottom: 113px;
 }
-.address {
-  width: 168px;
+.skill_list {
+  display: flex;
+  gap: 24px;
 }
-.hthree{
-    margin-top: 0;
+.resume_content_head {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.education {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.institutes {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.edu_descriptions {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 29.5px;
+}
+.download_btn {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* Footer start here */
+
+footer {
+  margin-top: 113px;
+  background: rgb(255, 248, 243);
+  padding: 130px 230px;
+}
+.footer {
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 100px;
+}
+.footer_top {
+  text-align: left;
+  margin-bottom: 28px;
+}
+.footer_description {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+}
+.social_icon img {
+  margin-top: 30px;
+  margin-right: 24px;
+}
+input[type="text"],
+[type="email"],
+textarea {
+  width: 461px;
+  height: 64px;
+  border-radius: 5px;
+  padding: 18px 349px 18px 30px;
+  margin-bottom: 24px;
+  border: none;
+}
+.footer_column {
+  width: 50%;
+}
+
+.footer_btn{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+footer textarea{
+    width: 461px;
+    height: 180px;
+}
+.input:focus{
+    outline: transparent;
 }
