@@ -32,9 +32,9 @@ header {
 }
 .nav_title {
   font-family: Open Sans;
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 800;
-  line-height: 61px;
+  line-height: 4rem;
   letter-spacing: 0%;
   text-align: left;
   margin-top: 50px;
@@ -48,7 +48,7 @@ nav .nav_items {
 
 header ul li a {
   text-decoration: none;
-  margin-left: 51px;
+  margin-left: 0;
   color: rgb(71, 71, 71);
   font-family: Open Sans;
   font-size: 20px;
@@ -61,7 +61,7 @@ header ul li a {
   padding: 18px 35px 19px 36px;
   color: rgb(255, 255, 255);
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 27px;
   letter-spacing: 0%;
@@ -90,7 +90,7 @@ position: relative;
 .banner .banner_contents .banner_head {
   color: rgb(71, 71, 71);
   font-family: Open Sans;
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 61px;
   margin-bottom: 5px;
@@ -99,7 +99,7 @@ position: relative;
 .banner .banner_contents .banner_title {
   color: rgb(24, 24, 24);
   font-family: Open Sans;
-  font-size: 85px;
+  font-size: 5rem;
   font-weight: 700;
   line-height: 116px;
   margin-bottom: 20px;
@@ -108,7 +108,7 @@ position: relative;
 .banner .banner_contents .banner_details {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 30px;
@@ -118,7 +118,7 @@ position: relative;
   padding: 18px 17px 18px 51px;
   color: rgb(255, 255, 255);
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 27px;
   margin-right: 30px;
@@ -132,7 +132,7 @@ position: relative;
   border-radius: 5px;
   color: rgb(253, 110, 10);
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 27px;
   text-align: center;
@@ -161,7 +161,7 @@ position: relative;
 .about_title {
   color: rgb(24, 24, 24);
   font-family: Open Sans;
-  font-size: 35px;
+  font-size: 2.1rem;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0%;
@@ -170,7 +170,7 @@ position: relative;
 .about_description {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 1.05rem;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0%;
@@ -180,14 +180,14 @@ position: relative;
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 2rem;
   letter-spacing: 0%;
   text-align: center;
   color: #757575;
 }
 .item_bottom {
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0%;
@@ -220,7 +220,7 @@ position: relative;
 .icon_box_head {
   color: rgb(24, 24, 24);
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 27px;
   letter-spacing: 0%;
@@ -230,7 +230,7 @@ position: relative;
 .icon_box_desctiption {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0%;
@@ -252,7 +252,7 @@ position: relative;
 .resume_content_head {
   color: rgb(71, 71, 71);
   font-family: Open Sans;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 41px;
   letter-spacing: 0%;
@@ -262,7 +262,7 @@ position: relative;
 .education {
   color: rgb(71, 71, 71);
   font-family: Open Sans;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 34px;
   letter-spacing: 0%;
@@ -273,7 +273,7 @@ position: relative;
 .institutes {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 27px;
   letter-spacing: 0%;
@@ -283,7 +283,7 @@ position: relative;
 .edu_descriptions {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0%;
@@ -318,7 +318,7 @@ footer {
 .footer_description {
   color: rgb(71, 71, 71);
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0%;
@@ -346,7 +346,7 @@ textarea {
 .footer_btn{
     color: rgb(255, 255, 255);
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 0%;
@@ -358,4 +358,94 @@ footer textarea{
 }
 .input:focus{
     outline: transparent;
+}
+
+@media screen and (max-width:576px) {
+  .banner{
+   flex-direction: column;
+   margin-bottom: 20px;
+   width: 95%;
+   margin: 50px auto;
+  }
+  header{
+    background-image: none;
+    background-position: 0;
+    display: inline;
+  }
+  .nav, 
+  .skills ,
+  .skill_list {
+    max-width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+   
+  }
+  .nav {
+padding: 0;
+margin-left: 0;
+  }
+  .main_top ,
+  .skill_section  {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 130px;
+  }
+  .about_title  {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+
+  }
+  .about{
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  footer{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    
+  }
+  .nav_items{
+    flex-direction: column;
+    margin: 50px auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  } 
+  .banner_details {
+    margin-bottom: 30px;
+  }
+  .footer{
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer_column{
+    width: 100%;
+  }
+  .resume{
+    width: 95%;
+    margin-top: 50px;
+  }
+  h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+
+ .banner_image{
+  max-width: 95%;
+  margin-top: 100px;
+
+  }
+  .forms{
+    max-width: 90%;
+  }
+  .social_icon,.footer_top,.footer_description{
+    text-align: center;
+  }
+  .banner_contents{
+max-width: 95%;
+  }
+ 
 }
